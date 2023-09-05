@@ -1,6 +1,6 @@
 ### Python Script That Encrypts All Files in Documents Folder
 
-# File Encryption Tool Documentation
+## File Encryption Tool Documentation
 
 ## Introduction
 The File Encryption Tool is a Python script designed to encrypt files within a specified folder and its subfolders using the Fernet encryption method. This tool provides a secure way to protect the confidentiality of your files.
