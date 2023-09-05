@@ -3,10 +3,10 @@
 ## File Encryption Tool Documentation
 
 ## Introduction
-The File Encryption Tool is a Python script designed to encrypt files within a specified folder and its subfolders using the Fernet encryption method. This tool provides a secure way to protect the confidentiality of your files or for a malicious intent (Ransomware).
-
+The File Encryption Tool is a Python script designed to encrypt files within a specified folder and its subfolders using the Fernet encryption method. This tool provides a secure way to protect the confidentiality of your files.
 ## Disclaimer ⚠️
-**This tool is provided for educational and demonstration purposes only. Use it at your own risk!!**
+**This tool is provided for educational and demonstration purposes only. Use it at your own risk!!
+The tool's intent is very dependent on the user, and users should avoid any malicious or unauthorized use, such as creating ransomware**
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -45,7 +45,7 @@ The File Encryption Tool uses the Fernet encryption method to secure your files.
 
 ### File Replacement
 - The original files within the specified folder and its subfolders are encrypted using the Fernet key.
-- The encrypted files are saved with the same filename as the original file, but with "ENC" added to the filename (e.g., "example.txt" becomes "exampleENC.txt").
+- The encrypted files are saved with the same filename as the original file, but with ".GHOST" added to the filename (e.g., "example.png" becomes "example.png.GHOST").
 - The original files are removed from the folder to maintain security.
 
 ## Security Considerations
